@@ -4,14 +4,68 @@
     BS Cloud and Systems Administration
     Western Governors University
 
-    #Web-Dev-Bootcamp-Udemy
+    #Web-Dev-Bootcamp-Lynda
 
 */
 
+/*
+	hex codes
+	#2b2d42 - dark blue
+	#8d99ae - light blue
+	#edf2f4 - blue/white
+	#ef233c - red
+*/
+
+
+/*  Global */
 body {
-	color: green;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+	font-family: 'Caveat', cursive;
 }
 
 h1{
-	color: red;
+	font-size: 80px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: #ef233c;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #8d99ae;
+}
+
+/*  Header and Footer */
+
+header, footer {
+	background: #2b2d42;
+	color: #8d99ae;
+
+}
+
+header h1, header h2{
+	color: #ffffff;
+}
+
+/*  Education */
+
+.work {
+	background: #edf2f4;
+}
+
+.education {
+	background: #8d99ae;
+}
+
+.certifications {
+	background: #edf2f4;
 }
