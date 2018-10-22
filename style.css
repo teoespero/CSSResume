@@ -18,6 +18,11 @@
 
 
 /*  Global */
+.content-wrap{
+	width: 950px;
+	margin: 0 auto;
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;
 }
@@ -69,3 +74,4 @@ header h1, header h2{
 .certifications {
 	background: #edf2f4;
 }
+
