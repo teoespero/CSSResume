@@ -21,10 +21,12 @@
 .content-wrap{
 	max-width: 950px;
 	margin: 0 auto;
+	padding: 50px;
 }
 
 body {
 	font-family: 'Open Sans', sans-serif;
+	margin: 0;
 }
 
 h1, h2 {
@@ -37,6 +39,7 @@ h1{
 
 h2 {
 	font-size: 40px;
+	margin-top: 0;
 }
 
 a {
@@ -59,6 +62,15 @@ header, footer {
 
 header h1, header h2{
 	color: #ffffff;
+}
+
+footer {
+	text-align: center;
+}
+
+.contact-info a {
+	padding: 10px;
+	display: inline-block;
 }
 
 /*  Education */
