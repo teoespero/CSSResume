@@ -18,6 +18,8 @@
 
 /*navs*/
 
+
+
 nav {
 	text-align: center;
 	background:  white;
@@ -95,17 +97,16 @@ body {
 	margin: 0;
 }
 
-.column-narrow {
+/*.column-narrow {
 	width: 30%;
 	float: left;
-/*	min-height: 175px;*/
 }
 
 .column-wide {
 	width: 70%;
 	float: left;
 	padding-left: 20px;
-}
+}*/
 
 h1, h2 {
 	font-family: 'Caveat', cursive;
@@ -166,10 +167,14 @@ h3 ~ p{
 
 .work {
 	background: #edf2f4;
+	/*background: linear-gradient(rgba(237, 242, 244,0.8), rgba(237, 242, 244,0.5)), url("images/jc-gellidon-434648-unsplash.jpg") no-repeat fixed;
+	background-size: cover;*/
 }
 
 .education {
-	background: #8d99ae;
+	/*background: #8d99ae;*/
+	background: linear-gradient(rgba(141, 153, 174,0.8), rgba(141, 153, 174,0.5)), url("images/luke-hodde-715277-unsplash.jpg") no-repeat fixed;
+	background-size: cover;
 }
 
 .certifications {
@@ -180,3 +185,27 @@ p + h3{
 	margin-top: 30px;
 }
 
+/*	media queries 	*/
+
+@media (min-width: 900px){
+	.column-narrow {
+		width: 30%;
+		float: left;
+	/*	min-height: 175px;*/
+	}
+
+	.column-wide {
+		width: 70%;
+		float: left;
+		padding-left: 20px;
+	}
+}
+
+@media (max-width: 899px){
+	header {
+		text-align: center;
+	}
+	.profile-img {
+		width: 200px;
+	}
+}
