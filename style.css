@@ -16,8 +16,59 @@
 	#ef233c - red
 */
 
+/*navs*/
+
+nav {
+	text-align: center;
+	background:  white;
+	position: fixed;
+	top: 0;
+	width: 100%;
+/*	left: 0;
+	right: 0;*/
+}
+
+nav a {
+	display:  inline-block;
+	padding: 15px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+
+header {
+	padding-top: 50px;
+	position: relative;
+}
 
 /*  Global */
+
+.dl-btn {
+	text-decoration: none;
+	background: #ef233c;
+	color: #ffffff;
+	display: inline-block;
+	padding: 10px;
+}
+
+.download {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.job-desc p:first-of-type{
+	margin-top: 0;
+}
+
+.job-desc {
+	margin-bottom: 25px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
 
 html {
 	box-sizing: border-box;
@@ -30,8 +81,9 @@ html {
 .content-wrap{
 	max-width: 950px;
 	margin: 0 auto;
-	padding: 50px;
+	padding: 60px 50px;
 	overflow: auto;
+
 }
 
 .profile-img {
@@ -46,7 +98,7 @@ body {
 .column-narrow {
 	width: 30%;
 	float: left;
-	min-height: 175px;
+/*	min-height: 175px;*/
 }
 
 .column-wide {
@@ -66,6 +118,10 @@ h1{
 h2 {
 	font-size: 40px;
 	margin-top: 0;
+}
+
+h3, h4 {
+	margin: 0;
 }
 
 a {
@@ -102,6 +158,10 @@ footer {
 	display: inline-block;
 }
 
+h3 ~ p{
+	margin: 0;
+}
+
 /*  Education */
 
 .work {
@@ -114,5 +174,9 @@ footer {
 
 .certifications {
 	background: #edf2f4;
+}
+
+p + h3{
+	margin-top: 30px;
 }
 
